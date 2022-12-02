@@ -1,0 +1,109 @@
+header{
+    width: 1300px;
+}
+.header-div1{
+    width: 1000px;
+    height: 170px;
+    margin: 77px auto 33px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.instagram-img{
+    margin: 35px 0 35px 0;
+}
+.header-icon{
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.header-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.header-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 130px;
+}
+.header-nav{
+    width: 700px;
+    height: 33px;
+    display: flex;
+    justify-content: space-around;
+}
+.home-page{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.home-page-left{
+    width: 400px;
+    position: absolute;
+    top: 117px;
+    left:154px;
+}
+.home-page-title{
+    color: #42495B;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.home-page-text{
+    color: #42495B;
+    font-size: 20px;
+    width: 400px;
+}
+.home-page-right{
+    display: inline-flex;
+    margin: 0;
+}
+.home-page-img{
+    width: 1300px;
+}
+.gallery-title{
+    text-align: center;
+    color: #42495B;
+    font-size: 32px;
+    margin: 50px auto;
+}
+.gallery-div{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.img-sixe{
+    width: 300px;
+}
+.shop-div{
+    width: 1000px;
+    margin: 0 auto;
+}
+.shop-title{
+    text-align: center;
+    color: #42495B;
+    font-size: 32px;
+    margin: 50px auto;
+}
+.shop-div-wraper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop-img-div{
+    margin-bottom: 80px;
+}
+.shop-img-bottom-div{
+    width: 290px;
+    text-align: center;
+}
+.shop-img-div-title{
+    font-size: 20px;
+    color: #C19C9C;
+}
+.shop-img-div-text{
+    font-size: 14px;
+    color: #565656;
+    margin: 7px auto;
+}
