@@ -1,48 +1,76 @@
+/*variables*/
+:root{
+
+}
+/*header*/
 header{
-    width: 1300px;
+    max-width: 1920px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 20;
 }
 .header-div1{
-    width: 1000px;
-    height: 170px;
-    margin: 77px auto 33px auto;
+    width: 80%;
+    margin: 10px auto 10px auto;
     display: flex;
     justify-content: space-between;
 }
 .instagram-img{
-    margin: 35px 0 35px 0;
+    margin: 10px 0 10px 0;
 }
 .header-icon{
     width: 25px;
     display: flex;
     flex-direction: column;
 }
+.fa-brands{
+    width: 25px;
+    color: #42495B;
+}
+.fa-instagram{
+    margin: 30px 0;
+}
 .header-logo{
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
 }
 .header-div2{
+    margin: 0 auto 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 130px;
 }
 .header-nav{
     width: 700px;
-    height: 33px;
     display: flex;
     justify-content: space-around;
 }
-.home-page{
-    display: flex;
-    justify-content: space-between;
+/*home page*/
+.bg-image{
+    background-image: url("../img/section1img.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 130px;
     position: relative;
 }
+.bg-image::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(to right, rgba(255,255,255,1) 33%,rgba(255,255,255,0) 94%);
+}
 .home-page-left{
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     position: absolute;
-    top: 117px;
-    left:154px;
+    top: 100px;
+    left:130px;
 }
 .home-page-title{
     color: #42495B;
@@ -52,33 +80,44 @@ header{
 .home-page-text{
     color: #42495B;
     font-size: 20px;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
 }
 .home-page-right{
     display: inline-flex;
     margin: 0;
 }
 .home-page-img{
-    width: 1300px;
+    max-width: 1300px;
+    width: 100%;
 }
+/*galery page*/
 .gallery-title{
     text-align: center;
     color: #42495B;
     font-size: 32px;
     margin: 50px auto;
 }
+.solid{
+    width: 25%;
+}
 .gallery-div{
-    width: 1000px;
-    margin: 0 auto;
+    width: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-
 }
-.img-sixe{
-    width: 300px;
+.img-size{
+    max-width: 300px;
+    padding: 0 15px 15px 0;
 }
+/*css for gallery page*/
+.pages{
+    margin-top: 200px;
+}
+/*shop page*/
 .shop-div{
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
 }
 .shop-title{
@@ -90,6 +129,7 @@ header{
 .shop-div-wraper{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .shop-img-div{
     margin-bottom: 80px;
@@ -107,3 +147,97 @@ header{
     color: #565656;
     margin: 7px auto;
 }
+/*order page*/
+.order-div-title{
+    text-align: center;
+    color: #42495B;
+    font-size: 32px;
+    margin: 50px auto;
+}
+.order-div{
+    max-width: 1920px;
+    width: 100%;
+    height: 451px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F9E7E7;
+    margin-bottom: 10px;
+}
+.order-div-img{
+    width: 50%;
+}
+.order-img{
+    width: 100%;
+}
+
+.order-div-right{
+    width: 50%;
+    padding: 45px 140px 115px 122px;
+}
+.order-title{
+    font-size: 38px;
+    color:#42495B;
+}
+.order-text{
+    font-size: 20px;
+    color: #42495B;
+}
+.button{
+    max-width: 185px;
+    border: solid;
+    background-color: #1D1D1D;
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+}
+.input-top-div{
+    max-width: 690px;
+    width: 100%;
+    margin-top: 26px;
+}
+.input-style{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+}
+.input-radio{
+
+}
+.input-number{
+    width: 100px;
+    height: 35px;
+
+}
+/*footer css*/
+footer{
+    background-color: #F9E7E7;
+    height: 200px;
+}
+footer p{
+    color: #C19C9C;
+    margin-bottom: 15px;
+
+}
+footer a{
+    color: #42495B;
+}
+footer li{
+    margin-bottom: 5px;
+}
+.adress{
+    margin-top: 30px;
+}
+.footer-div{
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.footer-logo{
+}
+
+
+
